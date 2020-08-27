@@ -36,11 +36,11 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        tEmail = (EditText)findViewById(R.id.email);
-        tPassword = (EditText)findViewById(R.id.password);
+        tEmail = (EditText)findViewById(R.id.Email);
+        tPassword = (EditText)findViewById(R.id.Password);
         mAuth = FirebaseAuth.getInstance();
 
-        ((Button)findViewById(R.id.login)).setOnClickListener(new View.OnClickListener() {
+        ((Button)findViewById(R.id.Login)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 validateUSer();
