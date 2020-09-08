@@ -17,7 +17,7 @@
             </LinearLayout>
             <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Recovery" android:textSize="20sp"/>
-                <ImageButton android:id="@+id/imageButton3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/buttonstyle" app:srcCompat="@drawable/password"/>
+                <ImageButton android:id="@+id/imageButton3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/buttonstyle" app:srcCompat="@drawable/usericon"/>
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
